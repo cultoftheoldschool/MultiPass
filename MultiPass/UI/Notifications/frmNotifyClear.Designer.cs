@@ -51,6 +51,7 @@
             this.pbxBanner.BackColor = System.Drawing.Color.Transparent;
             this.pbxBanner.Image = ((System.Drawing.Image)(resources.GetObject("pbxBanner.Image")));
             this.pbxBanner.Location = new System.Drawing.Point(0, 0);
+            this.pbxBanner.Margin = new System.Windows.Forms.Padding(0);
             this.pbxBanner.Name = "pbxBanner";
             this.pbxBanner.Size = new System.Drawing.Size(275, 30);
             this.pbxBanner.TabIndex = 1;
