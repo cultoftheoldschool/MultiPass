@@ -29,22 +29,9 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmNotifyClear));
-            this.lblClipboardCleared = new System.Windows.Forms.Label();
             this.pbxBanner = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbxBanner)).BeginInit();
             this.SuspendLayout();
-            // 
-            // lblClipboardCleared
-            // 
-            this.lblClipboardCleared.AutoSize = true;
-            this.lblClipboardCleared.BackColor = System.Drawing.Color.Black;
-            this.lblClipboardCleared.Font = new System.Drawing.Font("Px437 IBM ISO9", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(255)));
-            this.lblClipboardCleared.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.lblClipboardCleared.Location = new System.Drawing.Point(8, 2);
-            this.lblClipboardCleared.Name = "lblClipboardCleared";
-            this.lblClipboardCleared.Size = new System.Drawing.Size(267, 27);
-            this.lblClipboardCleared.TabIndex = 0;
-            this.lblClipboardCleared.Text = "CLIPBOARD CLEARED";
             // 
             // pbxBanner
             // 
@@ -64,7 +51,6 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(1)))), ((int)(((byte)(1)))));
             this.ClientSize = new System.Drawing.Size(275, 30);
             this.Controls.Add(this.pbxBanner);
-            this.Controls.Add(this.lblClipboardCleared);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmNotifyClear";
@@ -77,13 +63,10 @@
             this.Load += new System.EventHandler(this.frmNotifyClear_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbxBanner)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label lblClipboardCleared;
         private System.Windows.Forms.PictureBox pbxBanner;
     }
 }
